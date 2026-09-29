@@ -1,26 +1,26 @@
-S1 = float(input("1. Sınav Notunu Giriniz: "))
-S2 = float(input("2. Sınav Notunu Giriniz: "))
+S1 = float(input("1. Snav Notunu Giriniz: "))
+S2 = float(input("2. Snav Notunu Giriniz: "))
 P1 = float(input("1. Performans Notunu Giriniz: "))
 
 ort = (S1 + S2 + P1) / 3
 
 if ort == 0:
-sonuç = "olumsuz"
+    sonuc = "olumsuz"
 
 elif ort >= 85:
-sonuç = "Pek iyi"
+    sonuc = "Pek iyi"
 
 elif ort >= 70:
-sonuç = "Iyi"
+    sonuc = "Iyi"
 
 elif ort >= 55:
-sonuç = "Orta"
+    sonuc = "Orta"
 
 elif ort >= 40:
-sonuç = "Gecer"
+    sonuc = "Gecer"
 
 else:
-sonuç = "Başarısız"
+    sonuc = "Basarısız"
 
-print(f"Ortalama: {ort:.2f}")
-print(f"Degerlendirme: {conclusion}")
+print(f"Ortalama: {ort}")
+print(f"Degerlendirme: {sonuc}")
